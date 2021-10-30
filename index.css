@@ -1,0 +1,84 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(226, 226, 226);
+    color: white;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 3px 2px 36px 3px rgba(0,0,0,0.1);
+}
+
+#calculator button {
+    border: 0;
+    padding: 1rem;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.4);
+    line-height: 1;
+}
+
+#calculator button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: rgba(80, 79, 79, 0.8);;
+}
+
+#input-display {
+    color: rgba(80, 79, 79, 0.8);
+    outline: 0;
+    padding: 1rem;
+    border: 0;
+    background-color: rgb(255, 219, 211);
+    width: 100%;
+    font-size: 28px;
+
+
+}
+
+#numeric-controls,
+#operator-controls {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#explain {
+    padding: 3rem;
+    padding-left: 14%;
+}
+
+#explain button {
+    border: 0;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 18px;
+    color:rgba(0, 0, 0, 0.4);
+    line-height: 1;
+    box-shadow: 3px 2px 36px 3px rgba(0,0,0,0.1)
+}
+
+#explain button:hover {
+    background-color: rgb(255, 219, 211);
+    color: rgba(80, 79, 79, 0.8);
+}
+
+ul {
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 8px;
+    
+}
+
